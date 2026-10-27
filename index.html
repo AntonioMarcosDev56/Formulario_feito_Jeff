@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro de Usuário</title>
+
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body> 
+     <form>
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+
+        <label>Email:</label>
+        <input type="email" nome="email" required>
+
+        <label>Idade:</label>
+        <input type="number" name="idade" min="0">
+
+        <label>Senha:</label>
+        <input type="pasword" name="senha">
+
+        <label>Data de nascimento:</label>
+        <input type="date" nome="data_nascimento">
+
+        <label>Gênero:</label>
+        <select name="genero">
+            <option value="masc"> Masculçino</option>
+            <option value="fem"> Feminino</option>
+            <option value="outro"> outros</option>
+        </select>
+         
+        <label>Você aceita os termos</label>
+        <input type="checkbox" name="termos">
+
+        <label>Obse5rvações</label>
+        <textarea name="obs" raws="4"></textarea>
+
+        <br><br>
+        <button type="submit">Enviar</button>
+
+    </form>
+ </body>
+</html>
